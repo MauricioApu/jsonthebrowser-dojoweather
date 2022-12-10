@@ -1,0 +1,149 @@
+/* Global Changes */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto,sans-serif;
+}
+
+/* navbar */
+nav {
+    background-color: #9FC5F8;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    
+}
+.nav-links {
+    list-style-type: none;
+    margin-left: 450px;
+    color: white;
+}
+nav > h1 {
+    color: white;
+    margin-left: 125px;
+    margin-top: 10px;
+    font-size: 2.3em;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-links > li {
+    margin-left: 50px;
+    font-size: 1.7em;
+}
+
+/* top container */
+.topcontainer {
+    display: flex;
+    border-bottom: 3px solid black;
+    margin:25px 312px 25px 125px;
+}
+.topcontainer > h2 {
+    font-size: 2em;
+    margin-top: -10px;
+}
+.topcontainer > p {
+    font-size: 1.2em;
+    margin-left: 700px;
+}
+.topcontainer > select {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: -2px;
+    height: 30px;
+}
+/* forecast */
+.forecast {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 25px;
+}
+.day {
+    background-color: #EEEEEE;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.day > img {
+    border-radius: 50%;
+    height: 150px;
+    transform: translateX(15%);
+}
+
+.day > h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.day > h3, .day > p {
+    text-align: center;
+}
+
+.maxtemp{
+    color: #CF2A27;
+    font-size: 1.4em;
+    margin-left: -20px;
+    text-align: left;
+}
+.mintemp {
+    color: #2B78E4;
+    font-size: 1.4em;
+    margin-left: 70px;
+    text-align: right;
+}
+.temps {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+/* cookies */
+
+#cookies {
+    position: fixed;
+    width: 1000px;
+    height:100px;
+    border: 2px solid black;
+    background-color: #EEEEEE;
+    bottom: 80px;
+    left: 175px;
+}
+#cookies > h1 {
+    font-size: 1.6em;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#cookies > p {
+    font-size: 1.3em;
+    margin-right: 150px;
+    margin-left: 15px;
+}
+#cookies > img {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+#accept {
+    height: 30px;
+    width: 70px;
+    margin-top: -50px;
+    margin-left: 900px;
+    color: black;
+    border: 3px solid black;
+    background-color: #9FC5F8;
+    box-shadow: 2px 2px #333333;
+    display: block;
+    
+}
+
+#accept:hover {
+    background-color: cadetblue;
+}
+
+#accept:active {
+    box-shadow: 0 3px 3px black;
+    transform: translateY(3px) translateX(3px);
+}
